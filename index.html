@@ -548,12 +548,12 @@
 
         <form class="footer-form" action="#">
           <p class="footer-modal-text">Subscribe</p>
-          <label for="email"></label>
+          <label for="footer-email"></label>
           <div class="footer-inputs">
             <input
               class="footer-email"
               type="email"
-              id="email"
+              id="footer-email"
               name="email"
               required
               placeholder="E-mail"
@@ -641,14 +641,15 @@
             </div>
           </div>
           <div class="modal-comment">
-            <label for="textarea">Comment</label>
-            <input
-              type="textarea"
+            <label for="comment">Comment</label>
+            <textarea
               class="modal-textarea"
-              id="textarea"
-              name="textarea"
+              id="comment"
+              name="comment"
               placeholder="Text input"
-            />
+              rows="4"
+              required
+            ></textarea>
           </div>
           <div class="modal-privacy">
             <input
