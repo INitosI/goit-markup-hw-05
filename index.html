@@ -546,27 +546,28 @@
           </ul>
         </div>
 
-        <div class="modal-section">
-          <form class="footer-form" action="#">
-            <p class="footer-modal-text">Subscribe</p>
-            <label for="footer-email"></label>
-            <div class="footer-inputs">
-              <input
-                class="footer-email"
-                type="email"
-                id="footer-email"
-                name="email"
-                required
-                placeholder="E-mail"
-              />
+        <div class="form-section">
+          <div class="form-wrapper">
+            <p class="subscribe-text">Subscribe</p>
+            <form class="footer-form" action="#">
+              <label class="footer-label" for="footer-email">
+                <input
+                  class="footer-email"
+                  type="email"
+                  id="footer-email"
+                  name="user-email"
+                  required
+                  placeholder="E-mail"
+                />
+              </label>
               <button class="footer-submit-button" type="submit">
                 Subscribe
                 <svg class="icon-sub" width="24" height="24" aria-hidden="true">
                   <use href="./images/icons.svg#icon-sub"></use>
                 </svg>
               </button>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
