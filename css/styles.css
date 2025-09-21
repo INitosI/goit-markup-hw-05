@@ -876,6 +876,51 @@ ul {
   clip: rect(0 0 0 0);
 }
 
+/* Modal privacy / custom checkbox */
+.modal-privacy {
+  margin-top: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.privacy-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #2e2f42;
+  cursor: pointer;
+}
+.checkbox-custom {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  background: transparent;
+  transition: background-color 250ms ease, border 250ms ease, fill 250ms ease;
+}
+.checkbox-custom .icon-check {
+  fill: transparent;
+  transition: fill 250ms ease;
+}
+/* checked state */
+.privacy-box:checked + .privacy-label .checkbox-custom {
+  background-color: #404bbf;
+  border: none;
+}
+.privacy-box:checked + .privacy-label .checkbox-custom .icon-check {
+  fill: #f4f4fd;
+}
+/* keyboard focus */
+.privacy-box:focus + .privacy-label .checkbox-custom {
+  outline: 2px solid rgba(77, 90, 229, 0.24);
+  outline-offset: 2px;
+}
+
 .modal-submit-button {
   border-radius: 4px;
   padding: 16px 32px;
