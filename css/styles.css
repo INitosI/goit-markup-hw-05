@@ -622,44 +622,38 @@ ul {
   margin-bottom: 16px;
 }
 
-/* New footer form wrapper and subscribe text */
-.form-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
 .subscribe-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
 .icon-sub {
-  fill: var(--white);
+  fill: #ffffff;
   margin-left: 16px;
 }
 
 .footer-email {
-  border: 1px solid var(--white);
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background: transparent;
+  background-color: transparent;
   padding-left: 16px;
   padding-right: 8px;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-email::placeholder {
-  color: var(--white);
+  color: #ffffff;
 }
 
 .footer-email:focus {
@@ -692,7 +686,7 @@ ul {
   align-items: center;
   gap: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: var(--iris);
+  background-color: #4D5AE5;
   border-radius: 4px;
   padding: 8px 24px;
   font-family: 'Roboto', sans-serif;
@@ -700,7 +694,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #ffffff;
   border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
