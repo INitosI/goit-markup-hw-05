@@ -655,15 +655,21 @@
           <div class="modal-privacy">
             <input
               type="checkbox"
-              class="privacy-box"
+              class="privacy-box visually-hidden"
               id="user-privacy"
               name="user-privacy"
+              value="true"
               required
             />
-            <p class="privacy-text">
+            <label class="privacy-label" for="user-privacy">
+              <span class="checkbox-custom" aria-hidden="true">
+                <svg class="icon-check" width="10" height="8" aria-hidden="true">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
               <a class="privacy-link" href="#">Privacy Policy</a>
-            </p>
+            </label>
           </div>
           <button class="modal-submit-button" type="submit">Send</button>
         </form>
