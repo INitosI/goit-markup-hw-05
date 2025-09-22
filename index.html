@@ -63,7 +63,9 @@
       <section class="hero-section section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button data-modal-open class="hero-button" type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <!-- 2 Advantages -->
@@ -572,9 +574,9 @@
 
     <!-- MODAL -->
 
-    <div class="backdrop is-open">
+    <div data-modal class="backdrop is-open">
       <div class="modal">
-        <button class="cls-btn" type="button">
+        <button data-modal-close class="cls-btn" type="button">
           <svg class="icon-close" width="8" height="8" aria-hidden="true">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -665,5 +667,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
