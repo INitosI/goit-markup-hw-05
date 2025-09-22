@@ -888,7 +888,6 @@ ul {
   margin-bottom: 24px;
 }
 .privacy-label {
-  display: inline-flex;
   align-items: center;
   gap: 12px;
   font-size: 12px;
@@ -924,6 +923,7 @@ ul {
 /* checked state */
 .privacy-box:checked + .privacy-label .checkbox-custom {
   background-color: var(--ocean);
+  fill: #f4f4fd;
   border: none;
 }
 .privacy-box:checked + .privacy-label .checkbox-custom .icon-check {
